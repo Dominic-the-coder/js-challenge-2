@@ -160,4 +160,6 @@ function ActionButton({ label, onClick, color }) {
   );
 }
 
+console.log(items);
+
 export default App;
