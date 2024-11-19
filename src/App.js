@@ -132,7 +132,13 @@ function ListItem({ item, onToggle }) {
 function StatCard({ label, value, color }) {
   return (
     <div
-      className={"card rounded border shadow-sm px-5 py-2 text-center text-" + color + " bg-" + color + "-subtle"}
+      className={
+        "card rounded border shadow-sm px-5 py-2 text-center text-" +
+        color +
+        " bg-" +
+        color +
+        "-subtle"
+      }
     >
       <h5>{label}</h5>
       <h5>{value}</h5>
